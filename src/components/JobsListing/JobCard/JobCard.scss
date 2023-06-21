@@ -1,0 +1,153 @@
+.jobCard {
+  background: #fff;
+  padding: 50px 32px;
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 65px;
+  cursor: pointer;
+  text-decoration: none;
+
+  &-floatingImg {
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+
+    img {
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-scheduleGroup {
+    display: flex;
+    gap: 5px;
+    column-gap: 35px;
+    flex-wrap: wrap;
+    color: #6e8098;
+    margin-bottom: 16px;
+    height: 55px;
+
+    span {
+      position: relative;
+      height: fit-content;
+      &::after {
+        content: ".";
+        position: absolute;
+        left: 112%;
+        top: -30%;
+        color: #121721;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      &:last-child {
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+
+  &-title {
+    height: 40px;
+    margin-bottom: 17px;
+    transition: hover 0.3s ease-in-out;
+
+    &:hover{
+        color: #6E8098;
+    }
+  }
+
+  &-company {
+    color: #6e8098;
+    margin-bottom: 44px;
+  }
+
+  &-location {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5964e0;
+  }
+}
+
+.jobCard-dark {
+  background: #19202d;
+  padding: 50px 32px;
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 65px;
+  cursor: pointer;
+  text-decoration: none;
+
+  &-floatingImg {
+    position: absolute;
+    top: -25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+
+    img {
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-scheduleGroup {
+    display: flex;
+    gap: 5px;
+    column-gap: 35px;
+    flex-wrap: wrap;
+    color: #6e8098;
+    margin-bottom: 16px;
+    height: 55px;
+
+    span {
+      position: relative;
+      height: fit-content;
+      &::after {
+        content: ".";
+        position: absolute;
+        left: 112%;
+        top: -30%;
+        color: #121721;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      &:last-child {
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+
+  &-title {
+    height: 40px;
+    margin-bottom: 17px;
+    transition: hover 0.3s ease-in-out;
+    color: #fff;
+
+    &:hover{
+        color: #6E8098;
+    }
+  }
+
+  &-company {
+    color: #6e8098;
+    margin-bottom: 44px;
+  }
+
+  &-location {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5964e0;
+  }
+}
+

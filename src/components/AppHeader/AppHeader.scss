@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  background-color: #939bf4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+  padding: 44px 165px 84px 165px;
+  color: #fff;
+  background-attachment: fixed;
+  align-items: center;
+  border-bottom-left-radius: 150px;
+}
+
+.header-dark {
+  display: flex;
+  background-color: #939bf4;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+  padding: 44px 165px 84px 165px;
+  color: #fff;
+  background-attachment: fixed;
+  align-items: center;
+  border-bottom-left-radius: 150px;
+}
+
+.form-check-input:checked[type="checkbox"] {
+  --bs-form-switch-bg: url("../../img/Oval.png");
+}
+.form-check-input[type="checkbox"] {
+  --bs-form-switch-bg: url("../../img/Oval.png");
+}
+
+.form-switch {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.form-switch .form-check-input {
+  margin-left: 0;
+}

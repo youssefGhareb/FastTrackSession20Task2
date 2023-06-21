@@ -1,0 +1,55 @@
+.appInput{
+    width: 100%;
+    position: relative;
+    border-right: 1px solid #6e809844;
+
+    input{
+        width: 100%;
+        background-color: #fff;
+        padding: 31px 20px 31px 72px;
+        border: none;
+        color: #19202D;
+
+        &:focus-visible{
+            border: none;
+        }
+        &:focus{
+            border: none;
+        }
+    }
+
+    img{
+        width: 24px;
+        position: absolute;
+        top: 28px;
+        left: 32px;
+    }
+}
+
+.appInput-dark{
+    width: 100%;
+    position: relative;
+    border-right: 1px solid #6e809844;
+
+    input{
+        width: 100%;
+        background-color: #19202D;
+        padding: 31px 20px 31px 72px;
+        border: none;
+        color: #fff;
+
+        &:focus-visible{
+            border: none;
+        }
+        &:focus{
+            border: none;
+        }
+    }
+
+    img{
+        width: 24px;
+        position: absolute;
+        top: 28px;
+        left: 32px;
+    }
+}

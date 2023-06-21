@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800&display=swap");
+
+$primary-violet: #5964e0;
+$primary-light-violet: #939bf4;
+$primary-dark-blue: #19202d;
+$primary-midnight: #121721;
+$secondary-white: #fff;
+$secondary-light-grey: #f4f6f8;
+$secondary-grey: #9daec2;
+$secondary-dark-grey: #6e8098;
+
+.app-body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: $primary-dark-blue;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #f2f2f2;
+}
+
+.app-body-dark {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #6E8098;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #121721;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.appBtn-primary {
+  background-color: $primary-violet;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px 40px;
+  color: $secondary-white;
+  text-decoration: none;
+  transition: hover 0.3s ease-in-out;
+  border-radius: 5px;
+  mix-blend-mode: normal;
+  border: none;
+
+  &:hover {
+    background-color: $primary-light-violet;
+  }
+}
+
+.appBtn-secondary {
+  background-color: #5964e01e;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 16px 40px;
+  color: $primary-violet;
+  text-decoration: none;
+  transition: hover 0.3s ease-in-out;
+  border-radius: 5px;
+  mix-blend-mode: normal;
+
+  &:hover {
+    background-color: #5964e060;
+  }
+}
